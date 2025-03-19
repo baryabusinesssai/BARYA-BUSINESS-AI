@@ -1,0 +1,226 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Enhanced Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #29293d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: cyan;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: purple;
+}
+
+/* Hero Section */
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  background-color: #29293d;
+}
+
+.hero-content h2 {
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* Features and Services Section */
+.grid-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.grid-section h2 {
+  margin-bottom: 30px;
+  color: cyan;
+}
+
+.card {
+  background-color: #29293d;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: cyan;
+  margin: 10px 0;
+}
+
+/* Chatbot Section */
+#chatbot {
+  padding: 50px;
+  text-align: center;
+  background-color: #29293d;
+}
+
+#chat-area {
+  background-color: #1e1e2f;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.bot-message, .user-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bot-message {
+  background-color: #444;
+  text-align: left;
+}
+
+.user-message {
+  background-color: #007bff;
+  text-align: right;
+  color: white;
+}
+
+#user-message {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+#chatbot button {
+  padding: 10px 20px;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#chatbot button:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* Auth Section */
+.auth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #29293d;
+}
+
+.auth-content {
+  background-color: #1e1e2f;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-content h2 {
+  margin-bottom: 20px;
+  color: cyan;
+}
+
+.auth-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-content form label {
+  text-align: left;
+  color: #cccccc;
+}
+
+.auth-content form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.auth-content button {
+  padding: 10px 20px;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.auth-content button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.auth-content p {
+  margin-top: 10px;
+  color: #cccccc;
+}
+
+.auth-content p a {
+  color: cyan;
+  text-decoration: none;
+}
+
+.auth-content p a:hover {
+  text-decoration: underline;
+}
