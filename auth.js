@@ -43,3 +43,14 @@ function logoutUser() {
     window.location.href = "index.html"; // Redirect to home
   });
 }
+function signupUser() {
+  const email = document.getElementById("signupEmail").value;
+  const password = document.getElementById("signupPassword").value;
+
+  auth.createUserWithEmailAndPassword(email, password)
+    .then((userCredential) => {
+      alert("Signup Successful!");
+      window.location.href = "survey.html"; // Redirect to survey
+    })
+    .catch((error) => alert(error.message));
+}
